@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+highscores.json
+.DS_Store
+linkedin-kit/
+neon-arcade.zip

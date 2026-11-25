@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neon-arcade"
+version = "0.1.0"
+description = "Sala giochi arcade in tempo reale nel terminale con Python e Rich"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Susanna" }]
+requires-python = ">=3.9"
+dependencies = [
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+neon-arcade = "arcade.app:main"
